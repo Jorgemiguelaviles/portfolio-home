@@ -1,0 +1,84 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+a{color:black;
+ font-size: 1.5rem;
+ padding:10px;}
+
+a:link{color:#ffffff;}
+a:visited{color:#ffffff;}
+a:hover{color:#00ff1e;}
+
+.cabecalho{background:black;
+          display:flex;
+          flex-wrap: wrap;
+          justify-content: center;}
+
+.cabecalho__simbolo{background: white;
+        width:50px;
+        height:80px;}
+
+
+
+
+.principal{background:linear-gradient(to top, black, #00ff1e, black);
+         text-align:center ;
+         padding:10%;
+         font-size: 2rem;
+         color:white
+          
+           
+          }
+.principal__info{
+  display:flex;
+  height: auto;
+ 
+}
+
+
+
+.apresentação{border:white solid 1px; 
+             height:auto ;
+             width:40% ;
+             padding:20px
+             }
+
+
+.foto{
+  background:white;
+  height:400px;
+  margin: 20px;
+  
+  
+}
+.sobre{border:white solid 1px; 
+       height:auto ;
+       width:auto ;
+      padding:20px}
+
+.endereço{border:white solid 1px; 
+          height:70% ;
+          width:auto ;
+          padding:20px}
+
+
+.rodape{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: black;
+  
+}
+
+.rodape__linkedin{
+  height:100px;
+  width:100px;
+}
+
+.rodape__github{
+  height:100px;
+  width:100px;
+}
