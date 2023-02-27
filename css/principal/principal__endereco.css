@@ -1,0 +1,8 @@
+.principal__endereco{border:white solid 1px; 
+          height:70% ;
+          width:auto ;
+          padding:20px}
+
+@media(min-width:610px) {.principal__endereco{
+  width:auto;
+}}
