@@ -1,9 +1,5 @@
 .principal__sobre{border:white solid 1px; 
        height:auto ;
-       width:auto ;
-      padding:20px}
+       width:80% ;      
+      padding:1em;}
 
-@media(min-width:610px){.principal__sobre{
-  width:100%;
-  
-}}
